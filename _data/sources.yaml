@@ -27,3 +27,5 @@
 
 # Individual DOIs go here, e.g.:
 # - id: doi:10.1038/s41588-023-01234-5
+
+[] # empty list — remove this line when you add your first DOI
