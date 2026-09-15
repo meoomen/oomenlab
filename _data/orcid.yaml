@@ -1,0 +1,6 @@
+# ORCID-based publication import.
+# The orcid plugin calls the ORCID API to get all your works,
+# then cites each one individually via Manubot.
+# Note: the key is "orcid", NOT "id".
+
+- orcid: 0000-0002-2432-3862
