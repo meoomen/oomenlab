@@ -5,7 +5,7 @@
 #   - id: doi:10.1016/j.cell.2023.01.001
 #
 # To pull ALL your publications at once, add your ORCID or Google Scholar ID:
-#   - id: orcid:0000-0000-0000-0000
+#   - id: orcid:0000-0002-2432-3862
 #   - id: google-scholar:XXXXXXXXXX
 #
 # You can mix and match, and add optional overrides (image, buttons, tags):
@@ -25,5 +25,5 @@
 # - id: doi:10.1016/j.celrep.2022.110000
 # - id: doi:10.1093/nar/gkab000
 
-Or use your ORCID to import everything automatically (recommended):
- - id: orcid:0000-0002-2432-3862
+#Or use your ORCID to import everything automatically (recommended):
+# - id: orcid:0000-0002-2432-3862
