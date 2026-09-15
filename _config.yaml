@@ -48,6 +48,4 @@ remote_theme: greenelab/lab-website-template
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-scholar
