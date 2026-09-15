@@ -22,7 +22,7 @@ We are committed to sharing our data, code, and protocols openly.
 Code for published analyses is deposited on GitHub; raw and analyzed data are deposited in SRA and GEO.
 
 {%
-  include link.html
+  include button.html
   link="https://github.com/meoomen"
   text="GitHub"
   icon="fab fa-github"
