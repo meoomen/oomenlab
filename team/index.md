@@ -2,34 +2,59 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Meet the team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are a new lab at UMass Chan Medical School, established in 2026. We aim to bring together researchers with backgrounds in molecular biology, genomics, computational biology, and stem cells.
 
-{% include section.html %}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters:
+    role: principal-investigator
+%}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters:
+    role: postdoctoral-researcher
+%}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters:
+    role: phd
+%}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters:
+    role: undergrad
+%}
 
-{% include section.html %}
+## Join us
+We are currently not *yet* recruiting. Please reach out in Spring 2027!
 
-{% capture content %}
+**Postdocs** 
+ Enthusiastic postdoctoral fellows eligible for postdoc fellowships are encouraged to reach out to [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu) with a CV and brief description of research interests 
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+**PhD students** 
+Prospective students should apply through the
+[UMass Chan Graduate School of Biomedical Sciences](https://www.umassmed.edu/gsbs/).
 
-{% endcapture %}
+**Undergraduate researchers** 
+We occasionally host motivated undergraduates for independent study or summer research.
+Reach out via email with a CV and a brief statement of interest to [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu).
 
-{% include grid.html style="square" content=content %}
+## Lab culture
+
+We are committed to building an inclusive and collaborative environment where every team member can thrive. We value scientific rigor, creativity, open communication, and mutual respect. We believe that diverse teams do better science. 

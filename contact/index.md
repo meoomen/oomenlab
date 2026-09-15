@@ -1,77 +1,39 @@
 ---
 title: Contact
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 4
+  tooltip: Get in touch
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+**Marlies Oomen, Ph.D.**  
+Assistant Professor  
+Department of Molecular, Cell and Cancer Biology  
+UMass Chan Medical School
 
-{% include section.html %}
+**Office:** LRB-611  
+**Lab space** LRB-670B
+364 Plantation Street  
+Worcester, MA 01605
 
-{% capture col1 %}
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+**Email:** [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu)
 
-{% endcapture %}
+---
 
-{% capture col2 %}
+## Directions
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+The laboratory is located in the Lazare Research Building (LRB) on the UMass Chan Medical School campus in Worcester, MA.
 
-{% endcapture %}
+[Campus map and directions](https://www.umassmed.edu/about/visiting-campus/)
+{:.center}
 
-{% include cols.html col1=col1 col2=col2 %}
+---
 
-{% include section.html dark=true %}
+## Prospective lab members
 
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
+We are currently not *yet* recruiting.
 
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+See the [Team page](/team/) for more details.

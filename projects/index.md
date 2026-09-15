@@ -2,26 +2,32 @@
 title: Projects
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Research projects, tools, and datasets
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We pursue three interconnected research themes, using mammalian stem cell models combined with computational and experimental approaches.
 
-{% include tags.html tags="publication, resource, website" %}
+{%
+  include list.html
+  data="projects"
+  component="card"
+  style="rich"
+%}
 
-{% include search-info.html %}
+## Open science
 
-{% include section.html %}
+We are committed to sharing our data, code, and protocols openly.
+Code for published analyses is deposited on GitHub; raw and analyzed data are deposited in SRA and GEO.
 
-## Featured
+{%
+  include link.html
+  link="https://github.com/meoomen"
+  text="GitHub"
+  icon="fab fa-github"
+  flip=true
+%}
+{:.center}
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+Explore Marlies' postdoc data in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)

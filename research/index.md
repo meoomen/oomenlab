@@ -2,26 +2,33 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Our publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research investigates how transposable elements regulate, and are regulated by, the mammalian genome, combining evolutionary genomics with functional experiments in stem cell systems and differentiation models.
 
-{% include section.html %}
+{%
+  include search-box.html
+%}
 
-## Highlighted
+{%
+  include search-info.html
+%}
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{%
+  include list.html
+  data="citations"
+  component="citation"
+  style="rich"
+%}
 
-{% include section.html %}
+{%
+  include search-box.html
+%}
 
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+A full and up-to-date list of publications can also be found on
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Oomen+ME%5BAuthor%5D)
+or [Google Scholar](https://scholar.google.com/citations?user=HPwUPqkAAAAJ&hl=en).
+{:.center}

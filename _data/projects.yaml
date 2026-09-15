@@ -1,47 +1,50 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+# Research projects, tools, and datasets
+# Each entry becomes a card on the Projects page.
+# group: featured  →  shown prominently at the top
+# group: (omitted) →  shown in the main list
+
+- title: TE Regulatory Evolution
+  subtitle: Tracing transposable element co-option across mammalian genomes
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  # image: images/project-te-evolution.jpg
+  description: >
+    We use comparative genomic and transcriptomics approaches to trace how evolutionary ancient
+    transposable element families have been co-opted as cis-regulatory elements
+    over the course of mammalian evolution, revealing the rules that govern
+    whether a TE becomes a host gene regulator.
   tags:
-    - resource
+    - transposable elements
+    - genome evolution
+    - epigenomics
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: TEs in Development
+  subtitle: Epigenetic regulation of transposable elements during differentiation
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  # image: images/project-te-development.jpg
+  description: >
+    Using mammalian stem cell differentiation models, we investigate how the
+    host epigenome controls TE activity during development and how TE sequences
+    feed back to shape the epigenetic landscape at nearby genes.
   tags:
-    - resource
+    - stem cells
+    - differentiation
+    - chromatin
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: TEs in Disease
+  subtitle: Transposable element misregulation in cancer and other diseases
+  # image: images/project-te-disease.jpg
+  description: >
+    TEs that escape normal epigenetic silencing can drive oncogenic gene
+    expression programs. We study the mechanisms of TE misregulation in cancer
+    and explore TE-derived sequences as potential biomarkers or therapeutic
+    targets.
   tags:
-    - resource
-    - publication
+    - cancer
+    - epigenetics
+    - transposable elements
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+- title: Shiny app
+  subtitle: Expression of Genes and Transposable elements in preimplantation mammalian embryos
+  link: https://embryo.helmholtz-munich.de/ 
+  description: Explore expression of genes and TEs during early embryo development using the shiny webapp Marlies developed during her postdoc. 

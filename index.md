@@ -1,81 +1,42 @@
 ---
+title: Contact
+nav:
+  order: 4
+  tooltip: Get in touch
 ---
 
-# meoomen's Website
-
-An engaging 1-3 sentence description of your lab.
-
-{% include section.html %}
-
-## Highlights
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+# Contact
 
 {%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+  include card.html
+  image="images/lab-photo.jpg"
 %}
 
-{% endcapture %}
+## Oomen Lab
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+**Marlies Oomen, Ph.D.**  
+Assistant Professor  
+Department of Molecular, Cell and Cancer Biology  
+UMass Chan Medical School
 
-{% capture text %}
+**Office:** LRB-611  
+364 Plantation Street  
+Worcester, MA 01605
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+**Email:** [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu)
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+---
 
-{% endcapture %}
+## Directions
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+The laboratory is located in the Lazare Research Building (LRB) on the UMass Chan Medical School campus in Worcester, MA.
 
-{% capture text %}
+[Campus map and directions](https://www.umassmed.edu/about/visiting-campus/)
+{:.center}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+---
 
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+## Prospective lab members
 
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+We are currently not *yet* recruiting.
+See the [Team page](/team/) for more details.

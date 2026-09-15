@@ -1,79 +1,53 @@
-# site properties and page defaults
-title: meoomen
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+######### MAIN SITE CONFIG #########
+# Edit this file first — it controls the name, description, and global links.
+
+title: Oomen Lab
+subtitle: at the department of Molecular, Cell and Cancer Biology at UMass Chan Medical School
+description: >
+  We investigate the mechanisms of mammalian genome regulation of and by transposable elements
+
+# Header/footer background image (replace with your own in images/)
 header: images/background.jpg
 footer: images/background.jpg
-proofer: false
 
-# site social media and other links
+# Logo shown in navigation bar (replace with your lab logo)
+logo: images/logo.svg
+
+# Global contact / social links
 links:
-  email: contact@meoomen.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: meoomen
-  twitter: meoomen
-  youtube: meoomen
+  email: Marlies.Oomen@umassmed.edu
+  orcid: 0000-0002-2432-3862       # ← add your ORCID iD
+  google-scholar: Marlies E. Oomen       # ← add your Google Scholar ID
+  github: meoomen                # ← add your GitHub org/user
+  bluesky: marliesoomen.bsky.social   # ← add your Bluesky handle
 
-### jekyll settings
+# Navigation pages (order determines menu order)
+nav:
+  - text: Home
+    link: /
+  - text: Research
+    link: /research/
+  - text: Projects
+    link: /projects/
+  - text: Team
+    link: /team/
+  - text: Contact
+    link: /contact/
 
-# front matter defaults
-defaults:
-  # all markdown files
-  - scope:
-      path: ""
-    values:
-      layout: default
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
-  # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
+# Footer text / affiliation block
+footer-links:
+  - text: UMass Chan Medical School
+    link: https://www.umassmed.edu/
+  - text: Molecular, Cell and Cancer Biology
+    link: https://www.umassmed.edu/mccb/
+  - text: Marlies' faculty page
+    link: https://www.umassmed.edu/mccb/faculty-MCCB/faculty-MCCB/faculty-profile-pages/oomen-marlies/ 
 
-collections:
-  # generate page for each member
-  members:
-    output: true
-  # generate page for each post
-  posts:
-    output: true
-
-# jekyll plugins
+# Build settings (do not change)
+remote_theme: greenelab/lab-website-template
 plugins:
-  - jekyll-spaceship
-  - jekyll-sitemap
-  - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
-
-# code block syntax highlighting
-highlighter: rouge
-
-# jekyll theme
-theme: null
-
-# sass settings
-sass:
-  sass_dir: _styles
-
-# force jekyll to include certain files/folders
-include:
-  - _styles
-  - _scripts
-
-# force jekyll to exclude certain files/folders
-exclude:
-  - README.md
-  - LICENSE.md
-  - CITATION.cff
-
-# configure jekyll spaceship
-jekyll-spaceship:
-  mathjax-processor:
-    src:
-      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-scholar
