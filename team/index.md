@@ -13,32 +13,6 @@ We are a new lab at UMass Chan Medical School, established in 2026. We aim to br
   include list.html
   data="members"
   component="portrait"
-  filters:
-    role: principal-investigator
-%}
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters:
-    role: postdoctoral-researcher
-%}
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters:
-    role: phd
-%}
-
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters:
-    role: undergrad
 %}
 
 ## Join us
