@@ -21,7 +21,7 @@ She received her Ph.D. in 2021 from UMass Chan Medical School and Erasmus Univer
 Her research program investigates the mechanisms of genome regulation of and by transposable elements (TEs) from an evolutionary perspective.
 She combines computational approaches to trace TE evolutionary trajectories across mammalian genomes with genomic and transcriptomic wet-lab experiments to test their regulatory capacity.
 
-Marlies hes been selected as one of the Development Pathway-to-Indepence fellows in 2025. Read more about her in [this interview](https://journals.biologists.com/dev/article/152/16/dev205056/368891/Pathway-to-Independence-an-interview-with-Marlies).
+Marlies was one of the Development Pathway-to-Indepence fellows in 2025. Read more about her in [this interview](https://journals.biologists.com/dev/article/152/16/dev205056/368891/Pathway-to-Independence-an-interview-with-Marlies).
 
 <img src="{{ '/images/devPI.png' | relative_url }}" alt="Development Pathway-to-Independence fellow logo" width="80px">
 
