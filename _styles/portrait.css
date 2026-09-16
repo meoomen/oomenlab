@@ -1,5 +1,8 @@
 .portrait-wrapper {
-  display: contents;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
 }
 
 .portrait {
