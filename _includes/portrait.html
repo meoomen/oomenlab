@@ -3,9 +3,9 @@
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
-{% elsif include.slug %}
-  {% assign member = site.members
-    | where_exp: "member", "member.slug == include.slug"
+{% elsif include.name %}
+  {% assign member = site.members 
+    | where_exp: "member", "member.name == include.name"
     | first
   %}
 {% else %}
