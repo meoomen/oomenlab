@@ -43,8 +43,3 @@
     - epigenetics
     - transposable elements
 
-
-- title: Shiny app
-  subtitle: Expression of Genes and Transposable elements in preimplantation mammalian embryos
-  link: https://embryo.helmholtz-munich.de/ 
-  description: Explore expression of genes and TEs during early embryo development using the shiny webapp Marlies developed during her postdoc. 
