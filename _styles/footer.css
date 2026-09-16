@@ -1,5 +1,5 @@
 footer.background:before {
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
 }
 
