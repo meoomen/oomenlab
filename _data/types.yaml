@@ -1,0 +1,96 @@
+# Member roles
+principal-investigator:
+  icon: fa-solid fa-dna
+  description: Principal Investigator
+
+postdoc:
+  icon: fa-solid fa-glasses
+  description: Postdoctoral Researcher
+
+phd:
+  icon: fa-solid fa-graduation-cap
+  description: PhD Student
+
+undergrad:
+  icon: fa-solid fa-user-graduate
+  description: Undergraduate Student
+
+programmer:
+  icon: fa-solid fa-code
+  description: Programmer
+
+# Link types
+home-page:
+  icon: fa-solid fa-house-user
+  text: Home Page
+  tooltip: Home page
+
+email:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: Email
+  link: mailto:$VALUE
+
+orcid:
+  icon: fa-brands fa-orcid
+  text: ORCID
+  tooltip: ORCID
+  link: https://orcid.org/$VALUE
+
+google-scholar:
+  icon: fa-brands fa-google
+  text: Google Scholar
+  tooltip: Google Scholar
+  link: https://scholar.google.com/citations?user=$VALUE
+
+github:
+  icon: fa-brands fa-github
+  text: GitHub
+  tooltip: GitHub
+  link: https://github.com/$VALUE
+
+bluesky:
+  icon: fa-brands fa-bluesky
+  text: Bluesky
+  tooltip: Bluesky
+  link: https://bsky.app/profile/$VALUE
+
+twitter:
+  icon: fa-brands fa-twitter
+  text: Twitter
+  tooltip: Twitter
+  link: https://twitter.com/$VALUE
+
+linkedin:
+  icon: fa-brands fa-linkedin
+  text: LinkedIn
+  tooltip: LinkedIn
+  link: https://www.linkedin.com/in/$VALUE
+
+# Publication types
+paper:
+  icon: fa-solid fa-scroll
+  text: Paper
+  tooltip: Paper
+
+preprint:
+  icon: fa-regular fa-eye
+  text: Preprint
+  tooltip: Preprint
+
+# Alert types
+tip:
+  icon: fa-solid fa-lightbulb
+  color: "#d946ef"
+
+info:
+  icon: fa-solid fa-circle-info
+  color: "#0ea5e9"
+
+warning:
+  icon: fa-solid fa-circle-exclamation
+  color: "#F59E0B"
+
+error:
+  icon: fa-solid fa-ban
+  color: "#ef4444"
