@@ -30,4 +30,4 @@ Code for published analyses is deposited on GitHub; raw and analyzed data are de
 %}
 {:.center}
 
-#Explore Marlies' postdoc data in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)
+## Explore Marlies' postdoc data in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)
