@@ -1,7 +1,7 @@
 ---
 ---
 
-# The Oomen Lab
+###Welcome to the website of the Oomen lab! 
 
 We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity, from an evolutionary perspective.
 
@@ -20,7 +20,7 @@ Our lab asks how and when this co-option happens, why it sometimes goes wrong, a
 
 {%
   include section.html
-  dark=false
+  dark=true
 %}
 
 ## Research themes
