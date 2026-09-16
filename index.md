@@ -20,7 +20,7 @@ Our lab asks how and when this co-option happens, why it sometimes goes wrong, a
 
 {%
   include section.html
-  dark=true
+  dark=false
 %}
 
 ## Research themes
