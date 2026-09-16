@@ -58,23 +58,11 @@ If you are excited about TEs, epigenomics, genome evolution, or stem cell biolog
   include section.html
 %}
 
-{%
-  include cols.html
-  col1="
-  {%
-    include figure.html
-    image='images/umass-chan-logo.png'
-    link='https://www.umassmed.edu/'
-    width='180px'
-  %}
-  "
-  col2="
-  {%
-    include figure.html
-    image='images/mccb-logo.png'
-    link='https://www.umassmed.edu/mccb/'
-    width='180px'
-  %}
-  "
-%}
-{:.center}
+<div style="display:flex; justify-content:center; align-items:center; gap:2rem; flex-wrap:wrap;">
+  <a href="https://www.umassmed.edu/">
+    <img src="{{ '/images/umass-chan-logo.png' | relative_url }}" alt="UMass Chan Medical School" style="height:60px; width:auto;">
+  </a>
+  <a href="https://www.umassmed.edu/mccb/">
+    <img src="{{ '/images/mccb-logo.png' | relative_url }}" alt="Molecular, Cell and Cancer Biology" style="height:60px; width:auto;">
+  </a>
+</div>
