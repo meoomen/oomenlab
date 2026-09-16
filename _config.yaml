@@ -1,51 +1,87 @@
-######### MAIN SITE CONFIG #########
-# Edit this file first — it controls the name, description, and global links.
-
+# site properties and page defaults
 title: Oomen Lab
 subtitle: at the department of Molecular, Cell and Cancer Biology at UMass Chan Medical School
 description: >
   We investigate the mechanisms of mammalian genome regulation of and by transposable elements
-
-# Header/footer background image (replace with your own in images/)
 header: images/background.jpg
 footer: images/background.jpg
 
-# Logo shown in navigation bar (replace with your lab logo)
-logo: images/logo.svg
-
-# Global contact / social links
+# site social media and other links
 links:
   email: Marlies.Oomen@umassmed.edu
-  orcid: 0000-0002-2432-3862       # ← add your ORCID iD
-  google-scholar: Marlies E. Oomen       # ← add your Google Scholar ID
-  github: meoomen                # ← add your GitHub org/user
-  bluesky: marliesoomen.bsky.social   # ← add your Bluesky handle
+  orcid: 0000-0002-2432-3862
+  google-scholar: Marlies E. Oomen
+  github: meoomen
+  bluesky: marliesoomen.bsky.social
 
-# Navigation pages (order determines menu order)
-nav:
-  - text: Home
-    link: /
-  - text: Research
-    link: /research/
-  - text: Projects
-    link: /projects/
-  - text: Team
-    link: /team/
-  - text: Contact
-    link: /contact/
-
-# Footer text / affiliation block
+# footer affiliation links
 footer-links:
   - text: UMass Chan Medical School
     link: https://www.umassmed.edu/
   - text: Molecular, Cell and Cancer Biology
     link: https://www.umassmed.edu/mccb/
   - text: Marlies' faculty page
-    link: https://www.umassmed.edu/mccb/faculty-MCCB/faculty-MCCB/faculty-profile-pages/oomen-marlies/ 
+    link: https://www.umassmed.edu/mccb/faculty-MCCB/faculty-MCCB/faculty-profile-pages/oomen-marlies/
 
-# Build settings (do not change)
-remote_theme: greenelab/lab-website-template
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
 plugins:
-  - jekyll-feed
+  - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme (files are local — no remote theme needed)
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
