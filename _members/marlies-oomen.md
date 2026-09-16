@@ -26,9 +26,6 @@ She combines computational approaches to trace TE evolutionary trajectories acro
 
 Marlies hes been selected as one of the Development Pathway-to-Indepence fellows in 2025. Read more about her in [this interview](https://journals.biologists.com/dev/article/152/16/dev205056/368891/Pathway-to-Independence-an-interview-with-Marlies).
 
-{%
-  include figure.html
-  image="images/devPI.png"
-  caption="Development PI fellow logo"
-  width="200px"
-%}
+<img src="{{ '/images/devPI.png' | relative_url }}" alt="Development Pathway-to-Independence fellow logo" width="40px">
+
+

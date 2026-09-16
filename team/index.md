@@ -26,7 +26,7 @@ Prospective students should apply through the
 [UMass Chan Graduate School of Biomedical Sciences](https://www.umassmed.edu/gsbs/).
 
 **Undergraduate researchers** 
-We occasionally host motivated undergraduates for independent study or summer research.
+We encourge highly motivated undergraduates to contact us and enquire for possibilites to do independent study or a summer research project with us.
 Reach out via email with a CV and a brief statement of interest to [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu).
 
 ## Lab culture
