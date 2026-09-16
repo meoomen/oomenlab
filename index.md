@@ -1,7 +1,7 @@
 ---
 ---
 
-# Oomen Lab
+# The Oomen Lab
 
 We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity, from an evolutionary perspective.
 
@@ -20,7 +20,7 @@ Our lab asks how and when this co-option happens, why it sometimes goes wrong, a
 
 {%
   include section.html
-  background="images/background.jpg"
+  #background="images/background.jpg"
   dark=false
 %}
 
@@ -60,9 +60,9 @@ If you are excited about TEs, epigenomics, genome evolution, or stem cell biolog
 
 <div style="display:flex; justify-content:center; align-items:center; gap:2rem; flex-wrap:wrap;">
   <a href="https://www.umassmed.edu/">
-    <img src="{{ '/images/umass-chan-logo.png' | relative_url }}" alt="UMass Chan Medical School" style="height:60px; width:auto;">
+    <img src="{{ '/images/umass-chan-logo.png' | relative_url }}" alt="UMass Chan Medical School" style="height:auto; width:100px;">
   </a>
   <a href="https://www.umassmed.edu/mccb/">
-    <img src="{{ '/images/mccb-logo.png' | relative_url }}" alt="Molecular, Cell and Cancer Biology" style="height:60px; width:auto;">
+    <img src="{{ '/images/mccb-logo.png' | relative_url }}" alt="Molecular, Cell and Cancer Biology" style="height:auto; width:100px;">
   </a>
 </div>
