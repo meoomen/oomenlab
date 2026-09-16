@@ -9,16 +9,20 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding: 40px;
+  min-height: 150px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
+  --text: #002050;
 }
 
 footer a {
   color: var(--text) !important;
+  --text: #002050;
 }
 
 footer a:hover {
   color: var(--primary) !important;
+  --text: #002050;
 }
 
 footer .icon {
