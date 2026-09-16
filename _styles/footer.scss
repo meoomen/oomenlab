@@ -1,9 +1,10 @@
 ---
+---
+
 footer.background:before {
   background-size: contain;
   background-position: center center;
 }
----
 footer[data-dark="true"] {
   --text: #002050;
   color: #002050;
@@ -15,8 +16,8 @@ footer {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding: 100px;
-  min-height:100px;
+  padding: 40px;
+  min-height:40px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
 }
