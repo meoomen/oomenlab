@@ -5,10 +5,7 @@ role: principal-investigator
 affiliation: UMass Chan Medical School
 # Add your name variants so the template can match you to your publications:
 aliases:
-  - M. Oomen
-  - M.E. Oomen
-  - Marlies Oomen
-  - Marlies E. Oomen
+  - Oomen
 links:
   home-page: https://www.umassmed.edu/mccb/faculty-MCCB/faculty-MCCB/faculty-profile-pages/oomen-marlies/
   email: Marlies.Oomen@umassmed.edu
