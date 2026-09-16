@@ -22,11 +22,11 @@ We are currently not *yet* recruiting. Please reach out in Spring 2027!
  Enthusiastic postdoctoral fellows eligible for postdoc fellowships are encouraged to reach out to [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu) with a CV and brief description of research interests 
 
 **PhD students** 
-Prospective students should apply through the
+Prospective graduate students should apply through the
 [UMass Chan Graduate School of Biomedical Sciences](https://www.umassmed.edu/gsbs/).
 
 **Undergraduate researchers** 
-We encourge highly motivated undergraduates to contact us and enquire for possibilites to do independent study or a summer research project with us.
+We encourge highly motivated students to contact us and enquire for possibilites to do independent work or a summer research project with us.
 Reach out via email with a CV and a brief statement of interest to [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu).
 
 ## Lab culture
