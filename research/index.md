@@ -9,12 +9,12 @@ Our research investigates how transposable elements regulate, and are regulated 
 
 ## Explore our data
 
-<img src="{{ '/images/postdoc_abstract.jpg' | relative_url }}" alt="Graphical abstract of Marlies' postdoc publication" width="250px" style="float: right; margin-left: 20px;">
+<img src="{{ '/images/postdoc_abstract.jpg' | relative_url }}" alt="Graphical abstract of Marlies' postdoc publication" width="200px" style="float: right; margin-left: 20px;">
 
 Explore Marlies' postdoc work in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)
 
 
-
+<div style="clear: both;"></div>
 
 ## Publications
 
