@@ -20,7 +20,6 @@ Our lab asks how and when this co-option happens, why it sometimes goes wrong, a
 
 {%
   include section.html
-  #background="images/background.jpg"
   dark=false
 %}
 
