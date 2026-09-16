@@ -1,6 +1,5 @@
 footer.background {
-  --background: #002050;
-  --text: #ffffff;
+  --text: #002050;
 }
 
 footer {
@@ -10,17 +9,16 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding: 40px;
-  min-height: 200px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
 }
 
 footer a {
-  color: #002050;
+  color: var(--text) !important;
 }
 
 footer a:hover {
-  color: #002050;
+  color: var(--primary) !important;
 }
 
 footer .icon {
