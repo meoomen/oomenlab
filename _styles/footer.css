@@ -1,3 +1,8 @@
+footer.background {
+  --background: #002050;
+  --text: #ffffff;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -5,6 +10,7 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding: 40px;
+  min-height: 200px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
 }
