@@ -1,5 +1,5 @@
 ---
-header : images/background.jpg
+header: images/background.jpg
 ---
 
 ### Welcome to the website of the Oomen lab! 
