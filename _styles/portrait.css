@@ -55,7 +55,7 @@
   aspect-ratio: 1/1;
   border-radius: 999px;
   object-fit: cover;
-  box-shadow: var(--shadow);
+  object-position: center top;
 }
 
 .portrait[data-style=tiny] .portrait-image {
