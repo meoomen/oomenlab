@@ -3,11 +3,11 @@
 
 # Oomen Lab
 
-We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity — from an evolutionary perspective.
+We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity, from an evolutionary perspective.
 
-TEs are mobile genetic sequences that comprise nearly half of the human genome.
-Once considered "junk DNA," they are now recognized as major drivers of genomic innovation: co-opted by their hosts to regulate gene expression, shape chromatin architecture, and rewire developmental programs.
-Our lab asks how this co-option happens, why it sometimes goes wrong, and what that means for development and disease.
+TEs are mobile genetic sequences that comprise nearly half of the human genome. 
+Once considered "junk DNA," they are now recognized as potential drivers of genomic innovation: co-opted by their hosts to regulate gene expression, shape chromatin architecture, and rewire developmental programs.
+Our lab asks how and when this co-option happens, why it sometimes goes wrong, and what that means for development and disease.
 
 {%
   include button.html
@@ -21,7 +21,7 @@ Our lab asks how this co-option happens, why it sometimes goes wrong, and what t
 {%
   include section.html
   background="images/background.jpg"
-  dark=true
+  dark=false
 %}
 
 ## Research themes
@@ -38,10 +38,12 @@ We combine **computational genomics** and **wet-lab experiments** in mammalian s
   include section.html
 %}
 
-## Join us
+## Get in touch!
 
 We are a new lab at UMass Chan Medical School.
 If you are excited about TEs, epigenomics, genome evolution, or stem cell biology, we would love to hear from you.
+
+
 
 {%
   include button.html
@@ -49,5 +51,30 @@ If you are excited about TEs, epigenomics, genome evolution, or stem cell biolog
   text="Get in touch"
   icon="fas fa-envelope"
   flip=true
+%}
+{:.center}
+
+{%
+  include section.html
+%}
+
+{%
+  include cols.html
+  col1="
+  {%
+    include figure.html
+    image='images/umass-chan-logo.png'
+    link='https://www.umassmed.edu/'
+    width='180px'
+  %}
+  "
+  col2="
+  {%
+    include figure.html
+    image='images/mccb-logo.png'
+    link='https://www.umassmed.edu/mccb/'
+    width='180px'
+  %}
+  "
 %}
 {:.center}

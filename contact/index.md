@@ -8,22 +8,24 @@ nav:
 # Contact
 
 
-**Marlies Oomen, Ph.D.**  
+**Marlies E. Oomen, Ph.D.**  
 Assistant Professor  
 Department of Molecular, Cell and Cancer Biology  
 UMass Chan Medical School
 
 **Office:** LRB-611  
-**Lab space** LRB-670B
+**Lab space:** LRB-670B
+
 364 Plantation Street  
 Worcester, MA 01605
 
 
 **Email:** [Marlies.Oomen@umassmed.edu](mailto:Marlies.Oomen@umassmed.edu)
 
+
 ---
 
-## Directions
+### Directions
 
 The laboratory is located in the Lazare Research Building (LRB) on the UMass Chan Medical School campus in Worcester, MA.
 

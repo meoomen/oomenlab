@@ -4,10 +4,16 @@ nav:
   order: 1
   tooltip: Our publications
 ---
-
-# Publications
-
+# Research
 Our research investigates how transposable elements regulate, and are regulated by, the mammalian genome, combining evolutionary genomics with functional experiments in stem cell systems and differentiation models.
+
+## Explore our data
+
+Explore Marlies' postdoc work in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)
+
+
+## Publications
+
 
 {%
   include search-box.html
