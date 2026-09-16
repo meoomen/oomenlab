@@ -40,7 +40,7 @@ We combine **computational genomics** and **wet-lab experiments** in mammalian s
 ## Get in touch!
 
 We are a new lab at UMass Chan Medical School.
-If you are excited about TEs, epigenomics, genome evolution, or stem cell biology, we would love to hear from you.
+If you are excited about TEs and gene regulation, epigenetics, genome evolution, or stem cell biology, we would love to hear from you.
 
 
 
