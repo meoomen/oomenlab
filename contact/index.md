@@ -29,7 +29,7 @@ Worcester, MA 01605
 
 The laboratory is located in the Lazare Research Building (LRB) on the UMass Chan Medical School campus in Worcester, MA.
 
-[Campus map and directions](https://www.umassmed.edu/about/visiting-campus/)
+[Campus map and directions](https://www.umassmed.edu/about/directions/)
 {:.center}
 
 ---
