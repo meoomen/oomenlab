@@ -3,10 +3,11 @@
 # group: featured  →  shown prominently at the top
 # group: (omitted) →  shown in the main list
 
-- title: TE Regulatory Evolution
+- title: TEs in Mammalian Evolution
   subtitle: Tracing transposable element co-option across mammalian genomes
   group: featured
   image: images/project-te-evolution.jpg
+  alt: Evolution of a TE family showing phylogenetic tree, sequence features such as TF motifs, and structural characteristics of LTRs, LINEs, SINEs and DNA transposons
   description: >
     We use comparative genomic and transcriptomics approaches to trace how evolutionary ancient
     transposable element families have been co-opted as cis-regulatory elements
@@ -17,10 +18,11 @@
     - genome evolution
     - cross-species analyses
 
-- title: TEs as regulators of the epigenome
+- title: TEs as Regulators of the Epigenome
   subtitle: Epigenetic regulation of transposable elements in stem cells and differentiation
   group: featured
   image: images/project-te-epigenome.jpg
+  alt: Schematic figure of different mechanisms in which TEs can control the epigenome of neighboring regions
   description: >
     Using mammalian stem cells and differentiation models, we investigate how the
     host epigenome controls TE activity and how TE sequences
@@ -31,9 +33,10 @@
     - chromatin
     - genomics
 
-- title: TEs in their genomic context
+- title: TEs in their Genomic Context
   subtitle: Transposable element misregulation in cancer and other diseases
   image: images/project-te-genome-neighbor.jpg
+  alt: Schematic figure of how TEs can be used for chimeric transcripts, transcription across different mammalian species and driving expression of neighboring genes
   description: >
     TEs are known to drive gene expression programs in development, as well as in certain diseases such as cancer. 
     We study the mechanisms in which TE sequences wire the surrounding genome, and explore what happens to neighboring genes when TEs become (untimely) expressed. 
