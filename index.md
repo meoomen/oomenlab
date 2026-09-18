@@ -36,7 +36,7 @@ We combine **computational approaches** and **wet-lab experiments** in mammalian
 
 3. **How do TE insertions wire transcriptional programs?** Due to their repetitive nature, TEs can affect entire sets of genes. We study how TE sequences may affect neighboring genes and how this can become miswired in disease. 
 
-<img src="{{ '/images/TE_triangle_simple.png' | relative_url }}" alt="Triangle showing the interplay between TE sequence, epigenetic regulation and genomic context" width="200px" style="display: block; margin: 0 auto;" >
+<img src="{{ '/images/TE_triangle_simple.svg' | relative_url }}" alt="Triangle showing the interplay between TE sequence, epigenetic regulation and genomic context" width="400px" style="display: block; margin: 0 auto;" >
 
 {%
   include section.html

@@ -6,7 +6,7 @@
 - title: TE Regulatory Evolution
   subtitle: Tracing transposable element co-option across mammalian genomes
   group: featured
-  # image: images/project-te-evolution.jpg
+  image: images/project-te-evolution.jpg
   description: >
     We use comparative genomic and transcriptomics approaches to trace how evolutionary ancient
     transposable element families have been co-opted as cis-regulatory elements
@@ -15,31 +15,31 @@
   tags:
     - transposable elements
     - genome evolution
-    - epigenomics
+    - cross-species analyses
 
-- title: TEs in Development
-  subtitle: Epigenetic regulation of transposable elements during differentiation
+- title: TEs as regulators of the epigenome
+  subtitle: Epigenetic regulation of transposable elements in stem cells and differentiation
   group: featured
-  # image: images/project-te-development.jpg
+  image: images/project-te-epigenome.jpg
   description: >
-    Using mammalian stem cell differentiation models, we investigate how the
-    host epigenome controls TE activity during development and how TE sequences
-    feed back to shape the epigenetic landscape at nearby genes.
+    Using mammalian stem cells and differentiation models, we investigate how the
+    host epigenome controls TE activity and how TE sequences
+    feed back to shape the epigenetic landscape of nearby genes.
   tags:
-    - stem cells
+    - stem cells 
     - differentiation
     - chromatin
+    - genomics
 
-- title: TEs in Disease
+- title: TEs in their genomic context
   subtitle: Transposable element misregulation in cancer and other diseases
-  # image: images/project-te-disease.jpg
+  image: images/project-te-genome-neighbor.jpg
   description: >
-    TEs that escape normal epigenetic silencing can drive oncogenic gene
-    expression programs. We study the mechanisms of TE misregulation in cancer
-    and explore TE-derived sequences as potential biomarkers or therapeutic
-    targets.
+    TEs are known to drive gene expression programs in development, as well as in certain diseases such as cancer. 
+    We study the mechanisms in which TE sequences wire the surrounding genome, and explore what happens to neighboring genes when TEs become (untimely) expressed. 
   tags:
-    - cancer
-    - epigenetics
+    - gene regultion
     - transposable elements
+    - development
+    - cancer
 
