@@ -38,4 +38,4 @@ The laboratory is located in the Lazare Research Building (LRB) on the UMass Cha
 
 We are currently not *yet* recruiting.
 
-See the [Team page](/team/) for more details.
+See the [Team page](https://meoomen.github.io/oomenlab/team/) for more details.
