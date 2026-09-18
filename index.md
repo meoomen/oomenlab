@@ -7,7 +7,7 @@ header: images/background.jpg
 We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity, from an evolutionary perspective.
 
 TEs are (formerly) mobile genetic sequences that comprise nearly half of the human genome. 
-Once considered "junk DNA," they are now recognized as potential drivers of genomic innovation: co-opted by their hosts to regulate gene expression, shape chromatin architecture, and wire developmental programs.
+Long thought to be simply selfish elements without function to the host, they are now recognized as potential drivers of genomic innovation; co-opted to regulate gene expression, shape chromatin architecture, and (re-)wire developmental programs.
 
 Our lab asks how and when this co-option happens, how TEs affect their host genome and epigenome, and what this means for development and disease when TEs become miswired.
 
