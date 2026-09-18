@@ -34,4 +34,4 @@ Reach out via email with a CV and a brief statement of interest to [Marlies.Oome
 We are committed to building an inclusive and collaborative environment where every team member can thrive. We value scientific rigor, creativity, open communication, and mutual respect. We believe that diverse teams do better science. 
 
 
-<img src="{{ '/images/raccoon.png' | relative_url }}" alt="raccoon" width="150px" >
+<img src="{{ '/images/raccoon.png' | relative_url }}" alt="raccoon" width="100px" style="display: block; margin: 0 auto;" >

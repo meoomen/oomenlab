@@ -9,6 +9,8 @@ nav:
 
 We pursue three interconnected research themes, using mammalian stem cell models combined with computational and experimental approaches.
 
+<img src="{{ '/images/differentiated_cells_colored.png' | relative_url }}" alt="stem cells in dish with images of different mammalian species" width="150px" style="display: block; margin: 0 auto;" >
+
 {%
   include list.html
   data="projects"

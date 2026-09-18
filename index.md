@@ -6,9 +6,12 @@ header: images/background.jpg
 
 We investigate how **transposable elements (TEs)** shape genome regulation, stability, and integrity, from an evolutionary perspective.
 
-TEs are mobile genetic sequences that comprise nearly half of the human genome. 
-Once considered "junk DNA," they are now recognized as potential drivers of genomic innovation: co-opted by their hosts to regulate gene expression, shape chromatin architecture, and rewire developmental programs.
-Our lab asks how and when this co-option happens, why it sometimes goes wrong, and what that means for development and disease.
+TEs are (formerly) mobile genetic sequences that comprise nearly half of the human genome. 
+Once considered "junk DNA," they are now recognized as potential drivers of genomic innovation: co-opted by their hosts to regulate gene expression, shape chromatin architecture, and wire developmental programs.
+
+Our lab asks how and when this co-option happens, how TEs affect their host genome and epigenome, and what this means for development and disease when TEs become miswired.
+
+
 
 {%
   include button.html
@@ -25,14 +28,15 @@ Our lab asks how and when this co-option happens, why it sometimes goes wrong, a
 %}
 
 ## Research themes
+We combine **computational approaches** and **wet-lab experiments** in mammalian stem cell systems to answer three interconnected questions:
 
-We combine **computational genomics** and **wet-lab experiments** in mammalian stem cell systems to answer three interconnected questions:
+1. **How and when do TEs become regulatory sequences?** We trace TE evolutionary trajectories across mammalian genomes to understand how and when TE sequences switch from selfish elements to beneficial sequences for their hosts.
 
-1. **How do TEs become regulatory?** We trace TE evolutionary trajectories across mammalian genomes to understand which sequence features predict regulatory co-option.
+2. **How are TEs controlled by the epigenome?** Using mammalian stem cells and differentiation models, we study how the epigenome regulates and is regulated by TE sequences throughout development and differentiation.
 
-2. **How are TEs controlled during development?** Using stem cell differentiation models, we study how the epigenome silences TEs and how TE sequences feed back to shape chromatin at nearby genes.
+3. **How do TE insertions wire transcriptional programs?** Due to their repetitive nature, TEs can affect entire sets of genes. We study how TE sequences may affect neighboring genes and how this can become miswired in disease. 
 
-3. **How does TE misregulation drive disease?** We investigate how TEs that escape epigenetic silencing contribute to aberrant gene expression programs in cancer and other diseases.
+<img src="{{ '/images/TE_triangle_simple.png' | relative_url }}" alt="Triangle showing the interplay between TE sequence, epigenetic regulation and genomic context" width="200px" style="display: block; margin: 0 auto;" >
 
 {%
   include section.html
@@ -41,7 +45,7 @@ We combine **computational genomics** and **wet-lab experiments** in mammalian s
 ## Get in touch!
 
 We are a new lab at UMass Chan Medical School.
-If you are excited about TEs and gene regulation, epigenetics, genome evolution, or stem cell biology, we would love to hear from you.
+If you are excited about TEs and gene regulation, epigenetics, genome evolution or stem cell biology, we would love to hear from you.
 
 
 
