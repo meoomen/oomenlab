@@ -1,1 +1,1 @@
-Sitemap: https://meoomen.github.io/oomenlab/sitemap.xml
+Sitemap: http://oomenlab.com/sitemap.xml
