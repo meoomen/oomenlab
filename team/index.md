@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 2
   tooltip: Meet the team
 ---
 
@@ -23,7 +23,7 @@ We are currently not *yet* recruiting. Please reach out in Spring 2027!
 
 **PhD students** 
 Prospective graduate students should apply through the
-[UMass Chan Graduate School of Biomedical Sciences](https://www.umassmed.edu/gsbs/).
+[UMass Chan Graduate School of Biomedical Sciences](https://www.umassmed.edu/gsbs/){:title="Link to UMass Chan's graduate school of Biomedical Sciences" target="_blank" rel="noopener"}.
 
 **Undergraduate researchers** 
 We encourge highly motivated students to contact us and enquire for possibilites to do independent work or a summer research project with us.

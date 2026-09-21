@@ -1,15 +1,15 @@
 ---
-title: Projects
+title: Research
 nav:
-  order: 2
-  tooltip: Research projects, tools, and datasets
+  order: 1
+  tooltip: Research projects
 ---
 
 # Projects
 
 <img src="{{ '/images/differentiated_cells_colored.png' | relative_url }}" alt="stem cells in dish with images of different mammalian species" width="125px" style="float: right; margin-left: 20px;" >
 
-We pursue three interconnected research themes, using mammalian stem cells and differentiation models combined with computational and experimental approaches.
+Our research investigates how transposable elements regulate, and are regulated by, the mammalian genome, combining evolutionary genomics with functional experiments in stem cell systems and differentiation models. We pursue three interconnected research themes, using mammalian stem cells and differentiation models combined with computational and experimental approaches.
 
 
 
@@ -35,4 +35,4 @@ Code for published analyses is deposited on GitHub; raw and analyzed data are de
 %}
 {:.center}
 
-### Explore Marlies' postdoc data in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/)
+### Explore Marlies' postdoc data in the [shiny app](https://embryo.helmholtz-munich.de/shiny_embryo/){:title="Link to interactive shiny app of Marlies' postdoc work" target="_blank" rel="noopener"}
