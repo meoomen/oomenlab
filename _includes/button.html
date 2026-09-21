@@ -1,5 +1,6 @@
 {% assign button = include %}
 {% assign button = button | hash_default: site.data.types[include.type] %}
+{% assign is_external = button.link contains "://" %}
 
 {% if button.link or button.icon or button.text %}
   <div class="button-wrapper">
@@ -8,6 +9,9 @@
       href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
       {% if include.target %}
         target="{{ include.target }}"
+        rel="noopener"
+      {% elsif is_external %}
+        target="_blank"
         rel="noopener"
       {% endif %}
       {% if button.tooltip %}

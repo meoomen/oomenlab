@@ -32,7 +32,6 @@ Code for published analyses is deposited on GitHub; raw and analyzed data are de
   text="GitHub"
   icon="fab fa-github"
   flip=true
-  target="_blank"
 %}
 {:.center}
 
